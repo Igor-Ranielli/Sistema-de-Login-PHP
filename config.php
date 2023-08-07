@@ -4,4 +4,4 @@ define('USER', 'root');
 define('PASS', '');
 define('BASE', 'sislogin');
 
-$conn = new MySQLi(HOST, USER, PASS, BASE);
+$conexao = new MySQLi(HOST, USER, PASS, BASE);
